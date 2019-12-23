@@ -1,0 +1,27 @@
+About
+
+Enterprise Tech is no small game. The success of an enterprise often depends on its partners and the influence it exerts in its community. The various solutions an enterprise deploys need to enable its people, processes to thrive and reflect its policies and values. Often enterprises deploy complex solutions that limit its workforce in ways they can be productive. 
+
+We at Tech Sudoku optimise an organisation’s core technology solutions and help improve productivity. We help our customers pick a solution that not only fits them well but also reflects their openness in their partner ecosystem. 
+
+Shadow CTO, Shadow CISO
+Technology Consulting
+
+R&D Assistance
+Audit Assistance
+
+Infra Maintenance
+Wireless Networks
+Email
+Database Engineering
+Active Directory
+Firewall
+LAN Security
+L3 & L2 Networking
+BCP & DR
+Virtualisation
+App. Perf
+Telephony
+
+CI & CD
+App. Design Review
