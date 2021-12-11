@@ -18,16 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Tech Sudoku
+email: webmaster@techsudoku.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Enterprise Tech is no small game. The success of an enterprise often depends on 
+  its partners and the influence it exerts in its community. The various solutions 
+  an enterprise deploys need to enable its people, processes to thrive and reflect 
+  its policies and values. Often enterprises deploy complex solutions that limit its 
+  workforce in ways they can be productive. 
+
+  We at Tech Sudoku optimise an organisation's core technology solutions and help 
+  improve productivity. We help our customers pick a solution that not only fits them 
+  well but also reflects their openness in their partner ecosystem. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: techsudoku
+github_username:  techsudoku
 
 # Build settings
 theme: minima
