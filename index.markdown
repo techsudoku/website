@@ -6,14 +6,14 @@ layout: default
 
 <div class="site-main">
 
-    {%- include about.html -%}
+    {%- include products.html -%}
 
     {%- include video.html -%}
 
     {%- include services.html -%}
 
-    {%- include team.html -%}
+<!-- team.html -->
 
-    {%- include blog.html -%}
+<!-- blog.html -->
 
 </div>
