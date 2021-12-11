@@ -1,8 +1,19 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
 
-<h1>This is a test</h1>
+{%- include banner.html -%}
+
+<div class="site-main">
+
+    {%- include about.html -%}
+
+    {%- include video.html -%}
+
+    {%- include services.html -%}
+
+    {%- include team.html -%}
+
+    {%- include blog.html -%}
+
+</div>
