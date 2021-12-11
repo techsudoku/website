@@ -1,3 +1,5 @@
 bundle exec jekyll serve --livereload
 
 bundle update github-pages
+
+https://jekyllrb.com/docs/themes/#overriding-theme-defaults
