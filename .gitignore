@@ -1,1 +1,5 @@
-themeforest-5EVsSzNI-altech-it-solutions-multi-services-html5-template
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
