@@ -1,0 +1,48 @@
+<div class="row">
+    <!-- row -->
+    <div class="col-lg-7 col-md-7 col-sm-10 m-auto">
+        <!-- section title -->
+        <div class="section-title with-desc text-center clearfix">
+            <div class="title-header">
+                <h5>Our Services</h5>
+                <h2 class="title">We are here to fight against any violance with <span> experience</span></h2>
+            </div>
+        </div>
+        <!-- section title end -->
+    </div>
+</div>
+<!-- row end -->
+
+<div class="ttm-boxes-quickservicebox position-relative mt-10">
+    <div class="history-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="true">
+        {%- if site.posts.size > 0 -%}
+        {%- for post in site.posts -%}
+
+        <!-- featured-icon-box -->
+        <div class="featured-icon-box style9">
+            <div class="featured-icon">
+                <!--  featured-icon -->
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="flaticon flaticon-business-and-finance"></i>
+                    <!--  ttm-icon -->
+                </div>
+                <div class="servicebox-number">{{ post.number | escape }}</div>
+            </div>
+            <div class="featured-content">
+                <div class="featured-title">
+                    <h5>{{ post.title | escape }}</h5>
+                </div>
+                <div class="featured-desc">
+                    {{ post.description | escape }}
+                </div>
+                <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-dark btn-inline ttm-icon-btn-right mt-20" href="#">Read
+                    More <i class="ti ti-angle-double-right"></i></a>
+            </div>
+        </div>
+        <!-- featured-icon-box END-->
+
+        {%- endfor -%}
+        {%- endif -%}
+    </div>
+</div>
+<!-- row end-->
