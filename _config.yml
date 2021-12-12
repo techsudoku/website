@@ -60,6 +60,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# https://jekyllrb.com/docs/collections/
 collections:
   services:
     output: true
+
+promoted_service: Firewall

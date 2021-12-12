@@ -1,3 +1,5 @@
+{% assign promoted = site.services | where_exp:"service", "service.title == site.promoted_service" | first %}
+
 <div class="row pt-90">
     <!-- row -->
     <div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
@@ -12,12 +14,11 @@
             <!-- section title -->
             <div class="section-title with-desc clearfix">
                 <div class="title-header">
-                    <h5>Recruitment Technologies</h5>
-                    <h2 class="title">Solving Recruitment Using <span> Technology</span></h2>
+                    <h5>{{ promoted.title }}</h5>
+                    <h2 class="title">{{ promoted.tagline }}</h2>
                 </div>
                 <div class="title-desc">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered alteration in some form, by injected humour, or randomised words</p>
+                    <p>{{ promoted.description }}</p>
                 </div>
             </div>
             <!-- section title end -->
@@ -34,12 +35,11 @@
                         <!-- featured-content -->
                         <div class="featured-title">
                             <!-- featured-title -->
-                            <h5>Exclusive Service</h5>
+                            <h5>{{ promoted.feature1 }}</h5>
                         </div>
                         <div class="featured-desc">
                             <!-- featured-desc -->
-                            <p>Lorem Ipsum is simply dummy textover of the printing and typesetting industryin.
-                                printing and typesetting industry.</p>
+                            <p>{{ promoted.feature1description }}</p>
                         </div>
                     </div>
                 </div>
@@ -59,12 +59,11 @@
                 <div class="featured-content">
                     <div class="featured-title">
                         <!-- featured-title -->
-                        <h5>Experts Team</h5>
+                        <h5>{{ promoted.feature2 }}</h5>
                     </div>
                     <div class="featured-desc">
                         <!-- featured-desc -->
-                        <p>Lorem Ipsum is simply dummy textover of the printing and typesetting industryin.
-                            printing and typesetting industry.</p>
+                        <p>{{ promoted.feature2description }}</p>
                     </div>
                 </div>
             </div>
