@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -29,11 +29,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 
   We at Tech Sudoku optimise an organisation's core technology solutions and help 
   improve productivity. We help our customers pick a solution that not only fits them 
-  well but also reflects their openness in their partner ecosystem. 
+  well but also reflects their openness in their partner ecosystem.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: techsudoku
-github_username:  techsudoku
+github_username: techsudoku
 
 # Build settings
 theme: minima
@@ -59,3 +59,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  services:
+    output: true

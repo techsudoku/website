@@ -1,5 +1,5 @@
 ---
-categories: services
+number: 3
 title: Firewall
 description: >-
     The firewall service provides a simple way to manage firewall rules.
