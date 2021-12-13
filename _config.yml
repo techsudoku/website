@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tech Sudoku
-email: webmaster@techsudoku.com
+email: info@techsudoku.com
 description: >- # this means to ignore newlines until "baseurl:"
   Enterprise Tech is no small game. The success of an enterprise often depends on 
   its partners and the influence it exerts in its community. The various solutions 

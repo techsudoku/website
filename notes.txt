@@ -1,5 +1,9 @@
+# Run
+
 bundle exec jekyll serve --livereload
 
+# Install Dependencies
+bundle install
 bundle update github-pages
 
 https://jekyllrb.com/docs/themes/#overriding-theme-defaults
