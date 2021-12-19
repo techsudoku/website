@@ -8,7 +8,7 @@ layout: default
 
     {%- include products.html -%}
 
-    {%- include project.html -%}
+    {%- include promoted-project.html -%}
 
     {%- include services.html -%}
 

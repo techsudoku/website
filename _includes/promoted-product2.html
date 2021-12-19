@@ -1,0 +1,62 @@
+{% assign promoted_product = "/products/" | append: site.promoted_product2 %}
+{% assign promoted = site.products | where_exp:"product", "product.id == promoted_product" | first %}
+
+<!-- row -->
+<div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
+    <!-- ttm_single_image-wrapper -->
+    <div class="ttm_single_image-wrapper">
+        <img class="img-fluid" src="images/vector_page/single_02.png" alt="single-02">
+    </div>
+    <!-- ttm_single_image-wrapper end -->
+</div>
+<div class="col-lg-6">
+    <div class="pl-30 res-991-pl-0 res-991-mt-40">
+        <!-- section title -->
+        <div class="section-title with-desc clearfix">
+            <div class="title-header">
+                <h5>About Us</h5>
+                <h2 class="title">We deal with the aspects of professional <span> IT Services</span></h2>
+            </div>
+            <div class="title-desc">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised words</p>
+            </div>
+        </div>
+        <!-- section title end -->
+        <div class="pt-30 ttm-textcolor-darkgrey">
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="92%">
+                <div class="progress-bar-title">App Development</div>
+                <!-- progress-bar-title -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="92">92%</div>
+                <!-- progress-bar-percent -->
+            </div>
+            <!-- progress-bar END -->
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="82%">
+                <div class="progress-bar-title">Business Growth</div>
+                <!-- progress-bar-TITLE -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="82">82%</div>
+                <!-- progress-bar-PERCENT -->
+            </div>
+            <!-- progress-bar END -->
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="90%">
+                <div class="progress-bar-title">Technology Solution</div>
+                <!-- progress-bar-title -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="90">90%</div>
+                <!-- progress-bar-percent -->
+            </div>
+            <!-- progress-bar END -->
+        </div>
+    </div>
+</div>

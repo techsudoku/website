@@ -1,3 +1,6 @@
+{% assign promoted_project = "/projects/" | append: site.promoted_project %}
+{% assign promoted = site.projects | where_exp:"project", "project.id == promoted_project" | first %}
+
 <!-- cta-section -->
 <section class="ttm-row cta-section vector_bg-img2 clearfix">
     <div class="container">
@@ -7,23 +10,22 @@
                 <!-- section-title -->
                 <div class="section-title clearfix">
                     <div class="title-header">
-                        <h5>More Than 50,000 Happy Client</h5>
-                        <h2 class="title">We Provide Outsourced IT Services For Small & <span>Mid-Sized Business</span>
-                        </h2>
+                        <h5>{{promoted.title}}</h5>
+                        <h2 class="title">{{promoted.tagline}}</h2>
                     </div>
-                    <div class="title-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry’s standard.</div>
+                    <div class="title-desc">{{promoted.description}}</div>
                 </div>
                 <!-- section-title end -->
                 <div class="mt-40 res-991-mb-30">
-                    <a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey">Get
-                        Altech</a>
+                    <a href="{{promoted.url}}"
+                        class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey">Read
+                        more</a>
                 </div>
             </div>
             <div class="col-lg-1 col-md-2">
                 <div class="ttm-play-icon-btn m-auto d-block text-center">
                     <div class="ttm-play-icon-animation">
-                        <a href="https://youtu.be/7e90gBu4pas" target="_self" class="ttm_prettyphoto">
+                        <a href="{{promoted.youtube}}" target="_self" class="ttm_prettyphoto">
                             <div
                                 class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-sm ttm-icon_element-style-round">
                                 <i class="fa fa-play"></i>
