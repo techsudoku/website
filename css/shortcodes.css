@@ -143,13 +143,13 @@
 ------------------------*/
 
 .bg-img1{
-    background-image: url(https://via.placeholder.com/1920X194/888888.jpg);
+    background-image: url(../images/bg-image/row-bgimage-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .bg-img2{
-    background-image: url(https://via.placeholder.com/1920X485/888888.jpg);
+    background-image: url(../images/bg-image/row-bgimage-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

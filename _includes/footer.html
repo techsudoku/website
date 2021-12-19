@@ -6,7 +6,7 @@
             <div class="row align-items-md-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 order-md-2">
                     <div class="footer-logo text-sm-center">
-                        <img src="images/footer-logo.png" alt="footer-logo">
+                        <img src="{{ '/assets/logo-horizonal.svg' | relative_url }}" alt="logo">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 order-md-1">
@@ -23,7 +23,7 @@
                             <div class="featured-content">
                                 <!--  featured-content -->
                                 <div class="featured-desc">
-                                    <p>4789 Melmorn Street, Zakilahon Ton Mashintron Town USA</p>
+                                    <p>Financial District, Gachibowli, Hyderabad, India - 500032</p>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
                     <div class="text-sm-right">
                         <a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white"
-                            href="mailto:Info@example.com"> Info@example.com <i class="fa fa-envelope-o"></i></a>
+                            href="mailto:{{site.email}}"> {{site.email}} <i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,9 +46,7 @@
                     <div class="widget widget_text  clearfix">
                         <h3 class="widget-title">About Our Company</h3>
                         <div class="textwidget widget-text">
-                            We are the best world Information Technology Company. Providing the highest quality in
-                            hardware &amp; Network solutions. About more than 20 years of experience and 1000 of
-                            innovative achievements.
+                            {{site.about}}
                         </div>
                         <div class="quicklink-box">
                             <!--  featured-icon-box -->
@@ -69,7 +67,7 @@
                                     </div>
                                     <div class="featured-title">
                                         <!--  featured-title -->
-                                        <h5>+1 002-123-4567</h5>
+                                        <h5>{{site.phone}}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -82,13 +80,8 @@
                         <h3 class="widget-title">Quick Links</h3>
                         <ul id="menu-footer-services">
                             <li><a href="#">Make Appointment</a></li>
-                            <li><a href="#">Customer Services</a></li>
-                            <li><a href="#">Department Services</a></li>
-                            <li><a href="#">About Company</a></li>
                             <li><a href="#">Our Case Studies</a></li>
-                            <li><a href="#">Free Consultation</a></li>
                             <li><a href="#">Meet Our Experts</a></li>
-                            <li><a href="#">Our Business Growth</a></li>
                         </ul>
                     </div>
                 </div>
@@ -140,9 +133,6 @@
                                     <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#"
                                             data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                     </li>
-                                    <li class="social-flickr"><a class=" tooltip-top" target="_blank" href="#"
-                                            data-tooltip="flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a>
-                                    </li>
                                     <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href=""
                                             data-tooltip="LinkedIn"><i class="fa fa-linkedin"
                                                 aria-hidden="true"></i></a></li>
@@ -159,21 +149,15 @@
             <div class="row copyright">
                 <div class="col-md-6">
                     <div class="">
-                        <span>Copyright © 2019&nbsp;<a href="#">Altech</a> Template by <a
-                                href="https://themetechmount.com/" target="_blank">Themetechmount</a></span>
+                        <span>© Tech Sudoku 2021</span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-md-right res-767-mt-10">
                         <div class="d-lg-inline-flex">
                             <ul id="menu-footer-menu" class="footer-nav-menu">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Privacy</a></li>
+                                <li><a href="/privacy.html">Privacy</a></li>
                             </ul>
-                            <div class="float-md-right ml-20 res-767-ml-0">
-                                <img src="images/footer-payment-img.png" alt="payment-img">
-                            </div>
                         </div>
                     </div>
                 </div>

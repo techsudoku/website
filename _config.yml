@@ -20,16 +20,18 @@
 
 title: Tech Sudoku
 email: info@techsudoku.com
-description: >- # this means to ignore newlines until "baseurl:"
+phone: +91 90003 98877
+about: >-
+  We at Tech Sudoku optimise an organisation's core technology solutions and help 
+  improve productivity. We help our customers pick a solution that not only fits them 
+  well but also reflects their openness in their partner ecosystem.
+why: >- # this means to ignore newlines until "baseurl:"
   Enterprise Tech is no small game. The success of an enterprise often depends on 
   its partners and the influence it exerts in its community. The various solutions 
   an enterprise deploys need to enable its people, processes to thrive and reflect 
   its policies and values. Often enterprises deploy complex solutions that limit its 
-  workforce in ways they can be productive. 
+  workforce in ways they can be productive.
 
-  We at Tech Sudoku optimise an organisation's core technology solutions and help 
-  improve productivity. We help our customers pick a solution that not only fits them 
-  well but also reflects their openness in their partner ecosystem.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: techsudoku
@@ -60,7 +62,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# https://jekyllrb.com/docs/collections/
 collections:
   products:
     output: true
