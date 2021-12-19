@@ -69,7 +69,6 @@ collections:
   projects:
     output: true
 
-promoted_product: xema
 promoted_product1: xema
 promoted_product2: s3tech
 promoted_service: firewall

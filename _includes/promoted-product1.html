@@ -1,5 +1,8 @@
 {% assign promoted_product = "/products/" | append: site.promoted_product1 %}
-{% assign promoted = site.products | where_exp:"product", "product.id == promoted_product" | first %}
+{% assign product = site.products | where_exp:"product", "product.id == promoted_product" | first %}
+{% assign feature1 = product.features[0] %}
+{% assign feature2 = product.features[1] %}
+{% assign feature3 = product.features[2] %}
 
 <!-- row -->
 <div class="col-lg-6">
@@ -7,11 +10,11 @@
         <!-- section title -->
         <div class="section-title with-desc clearfix">
             <div class="title-header">
-                <h5>{{promoted.title}}</h5>
-                <h2 class="title">{{promoted.tagline}}</h2>
+                <h5>{{product.title}}</h5>
+                <h2 class="title">{{product.tagline}}</h2>
             </div>
             <div class="title-desc">
-                <p>{{promoted.description}}</p>
+                <p>{{product.description}}</p>
             </div>
         </div>
         <!-- section title end -->
@@ -23,7 +26,7 @@
                     <div class="featured-icon">
                         <!--  featured-icon -->
                         <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                            <i class="ti ti-bookmark-alt"></i>
+                            <i class="{{feature1.icon}}"></i>
                             <!--  ttm-icon -->
                         </div>
                     </div>
@@ -31,11 +34,11 @@
                         <!--  featured-content -->
                         <div class="featured-title mb-5">
                             <!--  featured-title -->
-                            <h5>{{promoted.feature1}}</h5>
+                            <h5>{{feature1.title}}</h5>
                         </div>
                         <div class="featured-desc">
                             <!--  featured-desc -->
-                            <p>{{promoted.description1}}</p>
+                            <p>{{feature1.description}}</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +50,7 @@
                     <div class="featured-icon">
                         <!--  featured-icon -->
                         <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                            <i class="ti ti-medall"></i>
+                            <i class="{{feature2.icon}}"></i>
                             <!--  ttm-icon -->
                         </div>
                     </div>
@@ -55,11 +58,11 @@
                         <!--  featured-content -->
                         <div class="featured-title mb-5">
                             <!--  featured-title -->
-                            <h5>{{promoted.feature2}}</h5>
+                            <h5>{{feature2.title}}</h5>
                         </div>
                         <div class="featured-desc">
                             <!--  featured-desc -->
-                            <p>{{promoted.description2}}</p>
+                            <p>{{feature2.description}}</p>
                         </div>
                     </div>
                 </div>
@@ -73,19 +76,22 @@
         </div>
         <!-- separator -->
         <!--  featured-icon-box -->
-        <div class="featured-icon-box left-icon icon-align-top">
+        <div class="featured-icon-box style3 left-icon icon-align-top">
             <div class="featured-icon">
-                <img src="images/about-sign-2.png" alt="about-sign">
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="{{feature3.icon}}"></i>
+                </div>
+                <!-- <img src="images/about-sign-2.png" alt="about-sign"> -->
             </div>
             <div class="featured-content">
                 <!--  featured-content -->
                 <div class="featured-title">
                     <!--  featured-title -->
-                    <h5>{{promoted.feature3}}</h5>
+                    <h5>{{feature3.title}}</h5>
                 </div>
                 <div class="featured-desc">
                     <!--  featured-desc -->
-                    <p>{{promoted.description3}}</p>
+                    <p>{{feature3.description}}</p>
                 </div>
             </div>
         </div>
@@ -95,7 +101,7 @@
 <div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
     <!-- ttm_single_image-wrapper -->
     <div class="ttm_single_image-wrapper pt-30">
-        <img class="img-fluid" src="images/vector_page/single_01.jpg" alt="single-01">
+        <img class="img-fluid" src="{{product.image | relative_url}}" alt="{{product.title}}">
     </div>
     <!-- ttm_single_image-wrapper end -->
 </div>
