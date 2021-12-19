@@ -62,7 +62,13 @@ plugins:
 
 # https://jekyllrb.com/docs/collections/
 collections:
+  products:
+    output: true
   services:
     output: true
+  projects:
+    output: true
 
-promoted_service: Firewall
+promoted_product: xema
+promoted_service: firewall
+promoted_project: bsnl-karvy-rydberg

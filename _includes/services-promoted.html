@@ -1,4 +1,5 @@
-{% assign promoted = site.services | where_exp:"service", "service.title == site.promoted_service" | first %}
+{% assign promoted_service = "/services/" | append: site.promoted_service %}
+{% assign promoted = site.services | where_exp:"service", "service.id == promoted_service" | first %}
 
 <div class="row pt-90">
     <!-- row -->

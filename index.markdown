@@ -8,7 +8,7 @@ layout: default
 
     {%- include products.html -%}
 
-    {%- include video.html -%}
+    {%- include project.html -%}
 
     {%- include services.html -%}
 
