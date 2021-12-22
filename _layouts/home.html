@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="ttm-one-page-site">
+
+    <div class="page">
+
+        <!-- preloader start -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <!-- preloader end -->
+
+        {%- include header.html -%}
+
+        {{ content }}
+
+        {%- include footer.html -%}
+
+    </div>
+
+</body>
+
+</html>

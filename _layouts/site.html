@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{{ page.bodycss }}">
+
+    <div class="{{ page.pagecss }}">
+
+        {%- include header.html -%}
+
+        {{ content }}
+
+        {%- include footer.html -%}
+
+    </div>
+
+</body>
+
+</html>
