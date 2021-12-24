@@ -1,3 +1,5 @@
+{% assign homeUrl = '/' | relative_url %}
+
 <!-- ttm-header-wrap -->
 <div class="ttm-header-wrap" id="ttm-home">
     <!-- ttm-stickable-header-w -->
@@ -49,12 +51,12 @@
                         </div>
                         <nav id="menu" class="menu">
                             <ul class="dropdown">
-                                <li><a aria-current="page" href="#ttm-home">Home</a></li>
-                                <li><a aria-current="page" href="#products">Products</a></li>
-                                <li><a aria-current="page" href="#services">Services</a></li>
-                                <li><a aria-current="page" href="#team">Team</a></li>
-                                <li><a aria-current="page" href="#blog">Blog</a></li>
-                                <li><a aria-current="page" href="#contact-us">Contact Us</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#ttm-home">Home</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#products">Products</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#services">Services</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#team">Team</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#blog">Blog</a></li>
+                                <li><a aria-current="page" href="{{homeUrl}}#contact-us">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
