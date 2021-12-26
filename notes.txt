@@ -9,3 +9,7 @@ bundle update github-pages
 https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 https://jekyllrb.com/docs/collections/
 https://jekyllrb.com/docs/liquid/filters/
+
+
+# new project
+jekyll new demo
