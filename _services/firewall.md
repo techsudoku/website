@@ -12,7 +12,7 @@ features:
     description: The firewall service can inspect the state of the firewall rules and the state of the network interfaces.
   - title: Firewall rules
     description: The firewall service can manage firewall rules.
-icon: none
+icon: flaticon flaticon-padlock
 image: /assets/infosec.png
 youtube: none
 categories: infra
