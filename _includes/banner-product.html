@@ -1,6 +1,8 @@
 {% assign random = site.time | date: "%s%N" | modulo: site.products.size %}
 {% assign post = site.products[random] %}
 
+<!-- product: {{random}} -->
+
 <!-- rs-slide -->
 <rs-slide data-key="rs-2" data-title="Slide" data-thumb="assets/banner-background.jpg"
     data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
