@@ -1,5 +1,7 @@
 {% assign promoted_service = "/services/" | append: site.promoted_service %}
 {% assign promoted = site.services | where_exp:"service", "service.id == promoted_service" | first %}
+{% assign feature1 = promoted.features[0] %}
+{% assign feature2 = promoted.features[1] %}
 
 <div class="row pt-90">
     <!-- row -->
@@ -36,11 +38,11 @@
                         <!-- featured-content -->
                         <div class="featured-title">
                             <!-- featured-title -->
-                            <h5>{{ promoted.feature1 }}</h5>
+                            <h5>{{ feature1.title }}</h5>
                         </div>
                         <div class="featured-desc">
                             <!-- featured-desc -->
-                            <p>{{ promoted.description1 }}</p>
+                            <p>{{ feature1.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -60,11 +62,11 @@
                 <div class="featured-content">
                     <div class="featured-title">
                         <!-- featured-title -->
-                        <h5>{{ promoted.feature2 }}</h5>
+                        <h5>{{ feature2.title }}</h5>
                     </div>
                     <div class="featured-desc">
                         <!-- featured-desc -->
-                        <p>{{ promoted.description2 }}</p>
+                        <p>{{ feature2.description }}</p>
                     </div>
                 </div>
             </div>

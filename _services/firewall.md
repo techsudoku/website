@@ -7,11 +7,11 @@ description: >-
     It is not possible to create multiple instances of the firewall service.
     The firewall service is not available to instances that are not running
     in the cloud.
-feature1: Stateful inspection
-description1: The firewall service can inspect the state of the firewall
-    rules and the state of the network interfaces.
-feature2: Firewall rules
-description2: The firewall service can manage firewall rules.
+features:
+  - title: Stateful inspection
+    description: The firewall service can inspect the state of the firewall rules and the state of the network interfaces.
+  - title: Firewall rules
+    description: The firewall service can manage firewall rules.
 icon: none
 image: none
 youtube: none
