@@ -1,6 +1,6 @@
 ---
 title: S3 Tech
-tagline: Low cost cloud platform for deploying <span>Modern Applications</span>
+tagline: <span>Low cost cloud for</span> Modern Applications
 image: assets/single_01.png
 icon: none
 description: >- 
