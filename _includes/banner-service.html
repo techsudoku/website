@@ -1,4 +1,5 @@
-{% assign post = site.services.first %}
+{% assign random = site.time | date: "%s%N" | modulo: site.services.size %}
+{% assign post = site.services[random] %}
 
 <!-- rs-slide -->
 <rs-slide data-key="rs-4" data-title="Slide" data-thumb="assets/banner-background.jpg"
