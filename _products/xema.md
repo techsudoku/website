@@ -1,7 +1,7 @@
 ---
 title: Xema Platform
 tagline: Unified Contact Center platform for <span>Voice, Email, Chat, and Social Media</span>
-image: assets/woman-with-headset-is-sitting-at-her-computer-and-talking-with-client-vector-id1240334968.jpg
+image: assets/xema-graphic.png
 icon: none
 description: >-
     Xema is AI driven, edge-deployed, multi-channel contact center platform that enables multi-skilled, blended Agents handle diverse tasks using skill based routing.

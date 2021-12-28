@@ -1,7 +1,7 @@
 ---
 title: S3 Tech
 tagline: Low cost cloud platform for deploying <span>Modern Applications</span>
-image: assets/single_01.jpg
+image: assets/single_01.png
 icon: none
 description: >- 
   Deploy your applications using open source and standards based cloud infrastructure

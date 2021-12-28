@@ -1,14 +1,12 @@
 ---
 title: "Log4Shell (CVE-2021-44228)"
-tagline:  Understanding the Impact of <span>Apache Log4j Vulnerability<span>
-image: /assets/hacker.jpg
+tagline:  Impact of <span>Apache Log4j Vulnerability<span>
+description: >-
+    Log4Shell is a vulnerability in Log4j, a popular Java logging framework, involving arbitrary
+    code execution. Apache gave Log4Shell a CVSS severity rating of 10, the highest available score.
+    It is estimated that the exploit affects hundreds of millions of devices and is very simple to execute.
+image: /assets/hacker.png
 categories: infosec
 externalUrl: https://en.wikipedia.org/wiki/Log4Shell
 date: 2021-12-25 23:50:46 +0530
 ---
-
-Log4Shell (CVE-2021-44228) is a zero-day vulnerability in Log4j, a popular Java logging framework, involving arbitrary
-code execution. The vulnerability has existed unnoticed since 2013 and was privately disclosed to the Apache Software
-Foundation, of which Log4j is a project, by Chen Zhaojun of Alibaba Cloud's security team on 24 November 2021, and was
-publicly disclosed on 9 December 2021. Apache gave Log4Shell a CVSS severity rating of 10, the highest available score.
-It is estimated that the exploit affects hundreds of millions of devices and is very simple to execute.
