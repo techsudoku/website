@@ -51,8 +51,22 @@
                         <nav id="menu" class="menu">
                             <ul class="dropdown">
                                 <li><a aria-current="page" href="{{homeUrl}}#ttm-home">Home</a></li>
-                                <li><a aria-current="page" href="{{homeUrl}}#products">Products</a></li>
-                                <li><a aria-current="page" href="{{homeUrl}}#services">Services</a></li>
+                                <li>
+                                    <a aria-current="page" href="{{homeUrl}}#products">Products</a>
+                                    <ul>
+                                        {%- for product in site.products -%}
+                                        <li><a href="{{product.url}}">{{product.title}}</a></li>
+                                        {%- endfor -%}
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a aria-current="page" href="{{homeUrl}}#services">Services</a>
+                                    <ul>
+                                        {%- for service in site.services -%}
+                                        <li><a href="{{service.url}}">{{service.title}}</a></li>
+                                        {%- endfor -%}
+                                    </ul>
+                                </li>
                                 <li><a aria-current="page" href="{{homeUrl}}#team">Team</a></li>
                                 <li><a aria-current="page" href="{{homeUrl}}#blog">Blog</a></li>
                                 <li><a aria-current="page" href="{{homeUrl}}#contact-us">Contact Us</a></li>
