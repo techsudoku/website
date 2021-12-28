@@ -13,7 +13,7 @@ features:
   - title: Firewall rules
     description: The firewall service can manage firewall rules.
 icon: none
-image: none
+image: /assets/infosec.png
 youtube: none
 categories: infra
 ---
