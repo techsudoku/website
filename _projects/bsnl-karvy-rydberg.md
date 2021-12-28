@@ -7,5 +7,7 @@ description:
     The CRM is integrated with BSNL backend systems for real 
     time activation of SIM cards on IVR. The entire solution is implemented using 
     Cisco hardware.
+icon: none
+image: none
 youtube: https://www.youtube.com/watch?v=eIzWsMI6YF0
 ---

@@ -1,8 +1,6 @@
 ---
 title: S3 Tech
 tagline: <span>Low cost cloud for</span> Modern Applications
-image: assets/single_01.png
-icon: none
 description: >- 
   Deploy your applications using open source and standards based cloud infrastructure
   that allows you to easily port-in and port-out. No strings attached.
@@ -13,4 +11,7 @@ features:
     icon: ti ti-panel
   - title: Cost
     icon: ti ti-settings
+icon: none
+image: /assets/single_01.png
+youtube: none
 ---

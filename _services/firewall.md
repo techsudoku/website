@@ -1,5 +1,4 @@
 ---
-number: 3
 title: Firewall
 tagline: A firewall is a system that protects your computer from <span>intruders</span>
 description: >-
@@ -13,4 +12,8 @@ description1: The firewall service can inspect the state of the firewall
     rules and the state of the network interfaces.
 feature2: Firewall rules
 description2: The firewall service can manage firewall rules.
+icon: none
+image: none
+youtube: none
+categories: infra
 ---
