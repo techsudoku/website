@@ -1,5 +1,5 @@
 ---
-title: S3 Tech
+title: S3 Stack
 tagline: <span>Low cost cloud for</span> Modern Applications
 description: >- 
   Deploy your applications using open source and standards based cloud infrastructure
