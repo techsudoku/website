@@ -1,7 +1,7 @@
 ---
 date: 2021-12-31 00:00:00 +0530
 title: 2022
-tagline:  Happy <span>New Year<span>
+tagline:  Happy New Year
 description: >-
     2022 will be the year where everyone can start afresh. For the past two years, people have taken to their homes to abide by the social distancing rule due to the coronavirus pandemic. We have now been considering celebrating this occasion within the comfort of our homes. The new year marks the beginning of new promises, resolutions and life decisions. It is this time of the year when we all can let go of old disputes and fights, and focus on mending everything for the new year to come. 
 icon: none
