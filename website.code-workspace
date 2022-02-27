@@ -2,11 +2,11 @@
 	"folders": [
 		{
 			"name": "minima-2.5.1",
-			"path": "../../../var/lib/gems/2.7.0/gems/minima-2.5.1"
+			"path": "../../../../var/lib/gems/2.7.0/gems/minima-2.5.1"
 		},
 		{
 			"name": "demo",
-			"path": "../demo"
+			"path": "../../demo"
 		},
 		{
 			"name": "website",
